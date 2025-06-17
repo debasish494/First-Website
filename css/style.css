@@ -31,7 +31,7 @@ nav{
     width: 90%;
     height: 400px;
     border-radius: 10px;
-    background-image: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.7)), url("/files/images/nature-image.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.7)) , url("../files/images/nature-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
