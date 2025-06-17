@@ -1,0 +1,127 @@
+/* Utility classes */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* Different classes */
+.main-nav a{
+    font-size: 25px;
+}
+.main-nav{
+    width: 100%;
+    padding-block: 10px;
+    justify-content: space-evenly;
+}
+nav{
+    border-bottom: 1px solid black;
+}
+.welcome-container{
+    width: 85%;
+    margin: 30px auto;
+}
+.welcome-image{
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.7)), url("/files/images/nature-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcome-image h1{
+    color: ivory;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: -1px;
+}
+/* .aboutus{
+    width:50%;
+    margin:20px auto:
+}
+.aboutus-image{
+    margin-left: 821px;
+    margin-top: 50px;
+}
+.ourservices-image{
+    margin-left: 170px;
+    margin-top: 60px;
+}
+.ourservices-image1{
+    margin-left: 821px;
+    margin-top: 50px;
+} */
+section{
+    display: flex;
+    justify-content: center;
+}
+.main-div{
+    flex-direction: column;
+    gap: 50px;
+}
+.company-image{
+    flex: 0 1 55%;
+}
+.company-desc{
+    flex: 0 1 45%;
+}
+.company-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.company-desc{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.inner-div{
+    justify-content: flex-start;
+    gap: 40px;
+    font-size:larger;
+    font-style: italic;
+}
+.company-desc h1{
+    font-size: 3rem;
+    margin-block: 0;
+}
+.learn-button{
+    width:100%;
+}
+.read-button{
+    /* width: 130px;
+    height:70px; */
+    font-size: 20px;
+    background-color: bisque;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.read-button:hover{
+    background-color: orange;
+    transition: background-color 0.1s ease-in-out;
+}
+.inner-div:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+.product-desc-section{
+    margin: 50px auto;
+    padding: 30px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: #e9e4e4;
+}
+.product-desc{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+}
+nav{
+    width: 100%;
+}   

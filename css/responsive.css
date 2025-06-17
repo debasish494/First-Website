@@ -1,0 +1,86 @@
+@media screen and (max-width:991px) {
+    .welcome-image h1{
+        font-size: 2rem;
+    }
+    .welcome-image{
+        width: 85%;
+    }
+    .company-image img{
+        height: 300px;
+    }
+    .company-desc h1{
+        font-size: 2.5rem;
+    }
+    .company-desc p{
+        font-size: 17px;
+    }
+    .read-button{
+        font-size: 17px;
+        padding: 10px;
+    }
+    .product-desc h1{
+        font-size: 2.4rem;
+    }
+    .product-desc p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .welcome-image h1{
+        font-size: 1.7rem;
+    }
+    .welcome-image{
+        width: 80%;
+    }
+    .company-image img{
+        height: 200px;
+    }
+    .company-desc h1{
+        font-size: 2rem;
+    }
+    .company-desc p{
+        font-size: 15px;
+    }
+    .read-button{
+        font-size: 15px;
+        padding: 9px;
+
+    }
+    .product-desc h1{
+        font-size: 2.1rem;
+    }
+    .product-desc p{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 479px) {
+    .welcome-image h1{
+        font-size: 1.2rem;
+    }
+    .welcome-image{
+        width: 75%;
+    }
+    .company-image img{
+        height: 150px;
+    }
+    .company-desc h1{
+        font-size: 1.5rem;
+    }
+    .company-desc p{
+        font-size: 12px;
+    }
+    .read-button{
+        font-size: 13px;
+        padding: 8px;
+    }
+    .product-desc h1{
+        font-size: 1.7rem;
+    }
+    .product-desc p{
+        font-size: 13px;
+    }
+    
+}
